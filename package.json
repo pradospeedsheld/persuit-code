@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "jest --verbose",
+    "test:coverage": "jest --coverage",
     "lint:check": "standard",
     "lint:fix": "standard --fix"
   },
@@ -19,6 +20,8 @@
     "got": "^11.5.1"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   }
 }
